@@ -11,6 +11,11 @@ class TaskCollection {
 		this.tasks.forEach(task=>{
 			console.log(this);
 		});
+		/*
+		this.tasks.forEach(function(task){
+			console.log(this); // undefined!
+		});
+		*/
 	}
 }
 class Task{
